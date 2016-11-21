@@ -102,7 +102,7 @@ $(".button-icon").toggle(
     function () {
     	$('.jq22').css("display","block");
         $("#desktop .icon").css("display", "none");
-        $("#button-icon").text("关闭整合模式");
+        $("#button-icon").text("Close system integration");
         $("#button-icon").removeClass("button-icon");
         $("#button-icon").addClass("button-icon1");
 
@@ -110,7 +110,7 @@ $(".button-icon").toggle(
     function () {
     	$('.jq22').css("display","none");
         $("#desktop .icon").css("display", "block");
-        $("#button-icon").text("开启整合模式");
+        $("#button-icon").text("Open system integration");
         $("#button-icon").removeClass("button-icon1");
         $("#button-icon").addClass("button-icon");
     }

@@ -22,7 +22,7 @@ body,html,#main,.wrap {
     display: none;
 }
 .smartfunction-2{
-	width: 150px;
+	width: 230px;
     height: 200px;
 }
 .smartfunction-2 li{
@@ -125,7 +125,7 @@ li {
 }
 
 .first {
-    width: 230px;
+    width: 250px;
 }
 
 .smartbox,.roundbox,.inesainside,.company,.data,.systemmanagement,.smartfunction-2{
@@ -182,7 +182,7 @@ li {
 
 .smartbox {
     float: right;
-    width: 197px;
+    width: 213px;
     font-size: 18px;
 }
 
@@ -193,11 +193,12 @@ li {
 }
 
 .smart h4,.smarttype h4 {
-    width: 140px;
+    width: 173px;
     float: left;
     height: 40px;
     line-height: 40px;
-    margin-right: 15px;
+    margin-right: 1px;
+    font-size: 14px;
     /*margin-top: 0px;
     margin-bottom: 0px;*/
 }
@@ -271,7 +272,7 @@ li {
 
 .second {
     float: left;
-    margin-left: 234px;
+    margin-left: 255px;
 	
 }
 
@@ -280,13 +281,13 @@ li {
 
 .inesainside {
     height: 300px;
-    width: 150px;
+    width: 242px;
     cursor: pointer;
     /*margin-bottom:0px;*/
 }
 
 .inesainside li {
-    width: 150px;
+    width: 242px;
     text-align: center;
     height: 35px;
     line-height: 35px;
@@ -294,13 +295,13 @@ li {
 }
 .inesainside-2 {
     height: 300px;
-    width: 150px;
+    width: 230px;
     cursor: pointer;
     /*margin-bottom:0px;*/
 }
 
 .inesainside-2 li {
-    width: 150px;
+    width: 230px;
     text-align: center;
     height: 35px;
     line-height: 35px;
@@ -325,12 +326,12 @@ li {
 }
 .commenu {
    /*// float: left;*/
-    margin-left: 392px;
+    margin-left: 502px;
 	/*//display:none;*/
 }
 .commenu-2 {
    /*// float: left;*/
-    margin-left: 392px;
+    margin-left: 490px;
 	/*//display:none;*/
 }
 .child {
@@ -339,7 +340,7 @@ li {
     background-color: rgba(250,250,250,0.6);
     padding-top: 20px;
 	 height: auto;
-    width: 350px;
+    width: 235px;
     cursor: pointer;
 }
 .child-2 {
@@ -660,7 +661,7 @@ span.zky  {
 /*jquery*/
 .active1 {
     color: #DC6F5A;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #TaskBarSoftwareArrow{								
@@ -744,7 +745,7 @@ span.zky  {
     right: 2.5%;原来为/*2.5*/
 }
 /*  热插拔弹窗开始*/
-.dialog{font-family: "微软雅黑";position:fixed;opacity: 0.1;width:300px;height:180px;bottom:-300px;right:90px;z-index:999;background:rgba(255,255,255,0.5);border-radius: 6px;border:1px solid #eee;}
+.dialog{font-family: "微软雅黑";position:fixed;opacity: 0.1;width:300px;height:180px;bottom:-300px;right:144px;z-index:999;background:rgba(255,255,255,0.5);border-radius: 6px;border:1px solid #eee;}
 .dialog h3{font-size:16px;font-family: "微软雅黑";font-weight: 600;line-height: 30px;padding: 0px 10px;background: }
 .dialog .d_content{font-size:13px;padding-left: 20px;padding-top: 10px}
 .dialog .d_content ul{height:100px;overflow: hidden;}
@@ -761,7 +762,7 @@ transform:rotate(45deg);
 }
 .dialog .close:hover{color: #fff;/*background: rgba(204,52,84,0.9);*/}
 
-.san{width: 30px;height:30px; border-radius: 3px;background: url(../img/san.png) no-repeat center center;background-size: 15px 15px;position: fixed;bottom:0.3%;right:280px;z-index: 888;cursor: pointer;}
+.san{width: 30px;height:30px; border-radius: 3px;background: url(../img/san.png) no-repeat center center;background-size: 15px 15px;position: fixed;bottom:0.3%;right:415px;z-index: 888;cursor: pointer;}
 /*bottom:0.6%;right:320px*/
 .san:hover{background-color:rgba(255,255,255,0.2);}
 .selected{background-color:rgba(255,255,255,0.2);}

@@ -25,22 +25,23 @@ function showtime () {
 	  var seconds = now.getSeconds();
 	  var day = now.getDay();
 	  Day = new MakeArray(7);
-	  Day[0]="  Sunday";
-	  Day[1]="  Monday";
-	  Day[2]="  Tuesday";
-	  Day[3]="  Wednesday";
-	  Day[4]="  Thursday";
-	  Day[5]="  Friday";
-	  Day[6]="  Saturday";
+	  Day[0]="星期天";
+	  Day[1]="星期一";
+	  Day[2]="星期二";
+	  Day[3]="星期三";
+	  Day[4]="星期四";
+	  Day[5]="星期五";
+	  Day[6]="星期六";
 	  var timeValue = "";
-	  timeValue += year;
-	  timeValue += ((month < 10) ? "0" : "") + month;
-	  timeValue += date;
-	  timeValue += "  "+(Day[day]) + "  ";
-	  timeValue += ((hours <= 12) ? hours : hours - 12);
-	  timeValue += ((minutes < 10) ? ":0" : ":") + minutes;
-	  timeValue += ((seconds < 10) ? ":0" : ":") + seconds;
-	  timeValue += (hours < 12) ? "morning" : "afternoon";
+//	  timeValue += year + "年";
+//	  timeValue += ((month < 10) ? "0" : "") + month + "月";
+//	  timeValue += date + "日  ";
+//	  timeValue += (Day[day]) + "  ";
+//	  timeValue += ((hours <= 12) ? hours : hours - 12);
+//	  timeValue += ((minutes < 10) ? ":0" : ":") + minutes;
+//	  timeValue += ((seconds < 10) ? ":0" : ":") + seconds;
+	  timeValue += now;
+	  timeValue += (hours < 12) ? "a.m." : "p.m.";
 	 $("#time").html(timeValue);
 	  timerID = setTimeout("showtime()",1000);
 	  timerRunning = true
@@ -219,6 +220,7 @@ document.onclick = function (e) {
             $(this).addClass("active2").siblings().removeClass("active");
             $(this).find(".tri").addClass("trion2");
             $(this).siblings().find(".tri").removeClass("trion");
+            $(".menucom-2").hide();
 
         }
         else if(myindex == 5) {
