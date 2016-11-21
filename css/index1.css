@@ -45,7 +45,7 @@ select {
 }
 
 .desktop-two-top select {
-	width: 50%;
+	width: 55%;
 	border-radius: 8px;
 	height: 66%;
 	margin-top: 3%;
@@ -123,7 +123,7 @@ select {
 
 .shalou span {
 	display: block;
-	width: 109px;
+	width: 131px;
 	height: 20px;
 	color: white;
 	line-height: 20px;
@@ -220,7 +220,7 @@ select {
 	line-height: 3px;
 	color: rgb(255, 255, 255);
 	box-shadow: rgb(153, 153, 153) 0px 0px 5px;
-	padding: 5%;
+	padding: 2%;
 	border-radius: 5px;
 	border-width: initial;
 	border-style: none;
