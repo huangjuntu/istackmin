@@ -219,6 +219,7 @@ document.onclick = function (e) {
             $(this).addClass("active2").siblings().removeClass("active");
             $(this).find(".tri").addClass("trion2");
             $(this).siblings().find(".tri").removeClass("trion");
+            $(".menucom-2").hide();
 
         }
         else if(myindex == 5) {
