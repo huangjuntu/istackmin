@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
 //下面的链接先注释掉
 var comNamess = [  
 	//对应index.html的orderr 序号
-	["#"], //0   这一个是左下角菜单:编程
+	["http://www.baidu.com"], //0   这一个是左下角菜单:编程
 	["http://122.144.216.14/test/1014/shkjw_left.html"], //1  仪电云
 	["http://122.144.216.14/test/1014/zhzz_left.html"], //2 智能制造
 	["http://122.144.216.14/test/1014/zhld_main.html"], //3	智能路灯网
@@ -47,6 +47,7 @@ var JQD = (function($, window, undefined) {
 				if(window.location !== window.top.location) {
 					window.top.location = window.location;
 				}
+//				注意:上面三句是iframe的防嵌套代码,加上此代码的话,比如百度统计热力图就不能使用
 			},
 			//
 			// Initialize the clock.

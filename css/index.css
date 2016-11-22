@@ -257,7 +257,7 @@ li {
 
 .smart {
 	height: 83px;
-	background: url(../img/INESA.png) no-repeat 5px 0;
+	background: url(../img/INESA1.png) no-repeat 5px 0;
 	z-index: 3;
 }
 
@@ -305,7 +305,7 @@ li {
 }
 
 .active2 {
-	background: url("../img/InesainsideCopy.png") no-repeat 9px 13px, url("../img/Path_Rectangle1.png") no-repeat;
+	background: url("../img/InesainsideCopy1.png") no-repeat 9px 13px, url("../img/Path_Rectangle1.png") no-repeat;
 	background-size: 132px 46px, 208px 80px;
 }
 
@@ -328,13 +328,13 @@ li {
 
 .inesainside {
 	height: 300px;
-	width: 242px;
+	width: 200px;
 	cursor: pointer;
 	/*margin-bottom:0px;*/
 }
 
 .inesainside li {
-	width: 242px;
+	width: 200px;
 	text-align: center;
 	height: 35px;
 	line-height: 35px;
@@ -369,17 +369,18 @@ li {
 }
 
 .child-2 li {
-	width: 300px;
-	text-align: left;
-	height: 30px;
-	line-height: 30px;
-	padding-bottom: 5px;
-	margin-left: 30px;
+    width: 130px;
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 5px;
+    /* margin-left: 10px; */
+    text-align: center;
 }
 
 .commenu {
 	/*// float: left;*/
-	margin-left: 502px;
+	margin-left: 460px;
 	/*//display:none;*/
 }
 
@@ -405,7 +406,7 @@ li {
 	background-color: rgba(250, 250, 250, 0.6);
 	padding-top: 20px;
 	height: auto;
-	width: 100px;
+	width: 130px;
 	cursor: pointer;
 }
 
@@ -414,7 +415,7 @@ li {
 
 .menu4 {
 	position: absolute;
-	left: 749px;
+	left: 700px;
 	width: 690px;
 	/*bottom: 120px;*/
 	top: 0%;
@@ -659,19 +660,19 @@ span.zky {
 }
 
 .systemmanagement {
-	width: 450px;
+	width: 525px;
 	height: 465px;
 }
 
 .leftdiv {
-	width: 200px;
+	width: 250px;
 	float: left;
 	height: 336px;
 }
 
 .leftdiv ul,
 .rightdiv ul {
-	margin-left: 35px;
+	margin-left: 27px;
 	margin-top: 18px;
 }
 
@@ -688,7 +689,7 @@ span.zky {
 }
 
 .leftdiv ul li {
-	width: 170px;
+	width: 250px;
 	height: 25px;
 	cursor: pointer;
 }
@@ -704,15 +705,15 @@ span.zky {
 
 .rightdiv {
 	float: right;
-	width: 200px;
+	width: 275px;
 }
 
 .rightdiv li {
 	height: 25px;
 	background-color: rgba(200, 200, 200, 0.7);
-	width: 117px;
+	width: 230px;
 	/*原来为127*/
-	padding-left: 10px;
+	padding-left: 5px;
 	padding-right: 10px;
 	margin-top: 3px;
 	cursor: pointer;
