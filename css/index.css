@@ -113,18 +113,32 @@ body {
 }
 
 .logo {
-    width: 450px;
+	width: 450px;
     right: 47%;
     height: 50px;
-    /* background: url(../img/yun_inesa1.png) no-repeat; */
+    background: url(../img/yun_inesa.png) no-repeat;
     margin-right: -225px;
     top: 45%;
+    margin-top: -146px;
+    z-index: 6;
+    font-size: 40px;
+    text-align: center;
+    color: #EEFFFF;
+}
+.logo_world{
+    width: 530px;
+    right: 47%;
+    height: 300px;
+    background: url(../img/logo-world1.png) no-repeat;
+    margin-right: -248px;
+    top: 48%;
     margin-top: -25px;
     z-index: 6;
     font-size: 40px;
     text-align: center;
     color: #EEFFFF;
-    line-height: 52px;
+    position: absolute;
+    z-index: 33;
 }
 
 .smartcollege h3 {
@@ -257,7 +271,7 @@ li {
 
 .smart {
 	height: 83px;
-	background: url(../img/INESA1.png) no-repeat 5px 0;
+	background: url(../img/INESA.png) no-repeat 5px 0;
 	z-index: 3;
 }
 
@@ -305,7 +319,7 @@ li {
 }
 
 .active2 {
-	background: url("../img/InesainsideCopy1.png") no-repeat 9px 13px, url("../img/Path_Rectangle1.png") no-repeat;
+	background: url("../img/InesainsideCopy.png") no-repeat 9px 13px, url("../img/Path_Rectangle1.png") no-repeat;
 	background-size: 132px 46px, 208px 80px;
 }
 
@@ -660,7 +674,7 @@ span.zky {
 }
 
 .systemmanagement {
-	width: 525px;
+	width: 591px;
 	height: 465px;
 }
 
@@ -705,17 +719,18 @@ span.zky {
 
 .rightdiv {
 	float: right;
-	width: 275px;
+	width: 334px;
 }
 
 .rightdiv li {
 	height: 25px;
 	background-color: rgba(200, 200, 200, 0.7);
-	width: 230px;
+	width: 300px;
 	/*原来为127*/
 	padding-left: 5px;
-	padding-right: 10px;
+	/*padding-right: 10px;*/
 	margin-top: 3px;
+	line-height: 25px;
 	cursor: pointer;
 }
 
