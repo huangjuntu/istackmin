@@ -13,7 +13,7 @@ var comNamess = [
 	["http://122.144.216.14/test/1014/zhzz_left.html"], //2 智能制造
 	["http://122.144.216.14/test/1014/zhld_main.html"], //3	智能路灯网
 	["http://122.144.216.14/test/1014/zhsy_left.html"], //4	智慧溯源  
-	["#"], //5	智慧交通
+	["http://122.144.216.14/test/1014/tcc_main.html"], //5	智慧交通
 	["http://122.144.216.14/test/1014/ydxs_left.html"], //6	智慧教育
 	["http://122.144.216.14/wqms"], //7	智慧水务
 	["http://122.144.216.14/slim"],  //8	智能建筑
@@ -28,7 +28,7 @@ var comNamess = [
 	["http://122.144.216.14/test/1014/jzy_main.html"],  //14  九州云
 	["#"],  //15 sxky
 	
-	["http://www.baidu.com"],//16桃浦科技智慧城管理系统点击
+	["http://122.144.216.14:1337"],//16桃浦科技智慧城管理系统点击
 	["http://122.144.216.4:8181/monitor/site/login.jsp"]//17 重庆两江地图点击
 	
 ];
